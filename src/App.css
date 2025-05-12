@@ -22,8 +22,8 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between; /* Distribuisce logo e voci */
-    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #ffffff;
     padding: 1rem 2rem;
     color: rgb(0, 0, 0);
@@ -31,7 +31,7 @@
     font-size: small;
 }
  
-/* Logo a sinistra */
+
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -50,7 +50,7 @@
     padding: 0;
 }
 
- /* Assicura che i link non siano troppo compressi */
+
  .nav-links li {
     cursor: pointer;
     padding: 0.5rem 1rem;
@@ -62,26 +62,26 @@
     background-color: #3a3f47;
   } 
   
-  /* Fine Navbar */
+/* Fine Navbar */
 .container-espansione{
     width: 100%;
     background-color: black;
 }
 
-  /* Inizio Main */
+/* Inizio Main */
 .container-main {
     width: 100%;
-    max-width: 1200px; /* Mantiene il rettangolo nero più largo */
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #000000;
-    height: 100px; /* Imposta una altezza maggiore per renderla visibile */
+    height: 100px; 
     display: flex;
     justify-content: left;
     align-items: center;
     color: white;
- }
+}
 
- /* Espansione della seconda sezione */
+/* Espansione della seconda sezione */
 .container-espansione-2 {
     background-color: #0080f7;
     width: 100%;
@@ -216,10 +216,10 @@
 
 .container-footer{
     width: 100%;
-    max-width: 1200px; /* Mantiene il rettangolo nero più largo */
+    max-width: 1200px; 
     margin: 0 auto;
     background-color: transparent;
-    height: 500px; /* Imposta una altezza maggiore per renderla visibile */
+    height: 500px; 
     display: flex;
     justify-content: left;
     
@@ -279,11 +279,11 @@
   }
   
   .shop-column h3 {
-    margin-top: 20px; /* Aggiunge spazio sopra il titolo SHOP */
+    margin-top: 20px;
   }
   
   .shop-column ul {
-    margin-top: 10px; /* Aggiunge spazio sopra la lista SHOP */
+    margin-top: 10px; 
   }
 
   footer{
