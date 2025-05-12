@@ -167,10 +167,10 @@ const ListComics = () => {
                     key={comic.id}
                     title={comic.title}
                     image={comic.thumb}
-                //description={comic.description}
-                //series={comic.series}
-                // price={comic.price}
-                //sale_date={comic.sale_date}
+                description={comic.description}
+                series={comic.series}
+                price={comic.price}
+                sale_date={comic.sale_date}
                 />
             ))}
         </div>
